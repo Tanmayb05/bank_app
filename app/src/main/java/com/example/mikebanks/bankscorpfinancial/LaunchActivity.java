@@ -70,9 +70,9 @@ public class LaunchActivity extends AppCompatActivity {
 
     private void displayHelpDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        
+
         builder.setTitle("Help")
-                .setMessage("This Bank App Demo was made by Mike Banks. Soon, this dialog will give the user help, depending on where they are in the app");
+                .setMessage("This Bank App Demo was made by Tanmay, Tejas, Nihal, Amit.");
 
         AlertDialog dialog = builder.create();
         dialog.show();
